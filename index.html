@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Date Picker Form</title>
+  </head>
+
+  <body>
+    <div class="form-container">
+      <h2>Formularz dyspozycji kursanta</h2>
+      <div class="tlo">
+        <div id="info-container">
+          <label for="name">Imię</label>
+          <input type="input" id="name" required />
+          <label for="nazwisko">Nazwisko</label>
+          <input type="input" id="nazwisko" required />
+          <label for="info">E-mail</label>
+          <input type="email" id="info" placeholder="przykład@gmail.com" />
+        </div>
+        <div id="dates-container"></div>
+        <div class="guziki">
+          <button id="add-date-btn">Dodaj datę</button>
+          <button id="submit-btn" type="submit">Prześlij dyspozycję</button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="form-container">
+      <h2>Date Picker Form</h2>
+      <div id="dates-container"></div>
+      <button id="add-date-btn">Add Date</button>
+      <button id="submit-btn" disabled>Submit</button>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
